@@ -1,0 +1,221 @@
+{
+  "packages": [
+    { "name": "express", "ecosystem": "npm", "description": "Fast, unopinionated, minimalist web framework for Node.js.", "latestVersion": "4.19.2" },
+    { "name": "body-parser", "ecosystem": "npm", "description": "Node.js body parsing middleware.", "latestVersion": "1.20.2" },
+    { "name": "cookie", "ecosystem": "npm", "description": "HTTP server cookie parsing and serialization.", "latestVersion": "0.6.0" },
+    { "name": "cookie-signature", "ecosystem": "npm", "description": "Sign and unsign cookies.", "latestVersion": "1.0.6" },
+    { "name": "debug", "ecosystem": "npm", "description": "A tiny debugging utility, modeled after Node core's debugging technique.", "latestVersion": "4.3.4" },
+    { "name": "finalhandler", "ecosystem": "npm", "description": "Node.js final HTTP responder.", "latestVersion": "1.2.0" },
+    { "name": "merge-descriptors", "ecosystem": "npm", "description": "Merge property descriptors from one object into another.", "latestVersion": "1.0.1" },
+    { "name": "methods", "ecosystem": "npm", "description": "HTTP methods that Node.js supports.", "latestVersion": "1.1.2" },
+    { "name": "on-finished", "ecosystem": "npm", "description": "Execute a callback when an HTTP request closes, finishes, or errors.", "latestVersion": "2.4.1" },
+    { "name": "parseurl", "ecosystem": "npm", "description": "Parse a URL with memoization.", "latestVersion": "1.3.3" },
+    { "name": "path-to-regexp", "ecosystem": "npm", "description": "Turn a path string into a regular expression.", "latestVersion": "0.1.7" },
+    { "name": "proxy-addr", "ecosystem": "npm", "description": "Determine address of a proxied request.", "latestVersion": "2.0.7" },
+    { "name": "qs", "ecosystem": "npm", "description": "A querystring parsing and stringifying library with nesting support.", "latestVersion": "6.11.0" },
+    { "name": "range-parser", "ecosystem": "npm", "description": "Parse HTTP Range header.", "latestVersion": "1.2.1" },
+    { "name": "send", "ecosystem": "npm", "description": "Streaming static file server with Range and conditional-GET support.", "latestVersion": "0.18.0" },
+    { "name": "serve-static", "ecosystem": "npm", "description": "Serve static files from a directory.", "latestVersion": "1.15.0" },
+    { "name": "type-is", "ecosystem": "npm", "description": "Infer the content-type of an HTTP request.", "latestVersion": "1.6.18" },
+    { "name": "vary", "ecosystem": "npm", "description": "Manipulate the HTTP Vary header.", "latestVersion": "1.1.2" },
+    { "name": "ms", "ecosystem": "npm", "description": "Convert time strings to milliseconds and back.", "latestVersion": "2.1.3" },
+    { "name": "encodeurl", "ecosystem": "npm", "description": "Encode a URL to a percent-encoded form.", "latestVersion": "1.0.2" },
+    { "name": "mime", "ecosystem": "npm", "description": "Comprehensive MIME type mapping.", "latestVersion": "1.6.0" },
+    { "name": "ipaddr.js", "ecosystem": "npm", "description": "A library for manipulating IPv4 and IPv6 addresses.", "latestVersion": "1.9.1" },
+    { "name": "raw-body", "ecosystem": "npm", "description": "Get and validate the raw body of a readable stream.", "latestVersion": "2.5.2" },
+    { "name": "statuses", "ecosystem": "npm", "description": "HTTP status utility for Node.js.", "latestVersion": "2.0.1" },
+    { "name": "unpipe", "ecosystem": "npm", "description": "Unpipe a stream from all destinations.", "latestVersion": "1.0.0" },
+    { "name": "mocha", "ecosystem": "npm", "description": "Simple, flexible, fun JavaScript test framework.", "latestVersion": "10.4.0" },
+    { "name": "glob", "ecosystem": "npm", "description": "Match files using patterns the shell uses.", "latestVersion": "10.3.10" },
+    { "name": "minimatch", "ecosystem": "npm", "description": "A minimal glob matcher implementation.", "latestVersion": "9.0.3" },
+    { "name": "brace-expansion", "ecosystem": "npm", "description": "Brace expansion as known from sh/bash.", "latestVersion": "2.0.1" },
+    { "name": "balanced-match", "ecosystem": "npm", "description": "Match balanced string pairs.", "latestVersion": "1.0.2" },
+    { "name": "inflight", "ecosystem": "npm", "description": "Add callbacks to requests in flight to avoid duplicate work.", "latestVersion": "1.0.6" },
+    { "name": "once", "ecosystem": "npm", "description": "Run a function exactly one time.", "latestVersion": "1.4.0" },
+    { "name": "wrappy", "ecosystem": "npm", "description": "Callback wrapping utility.", "latestVersion": "1.0.2" },
+    { "name": "minimist", "ecosystem": "npm", "description": "Parse argument options.", "latestVersion": "1.2.8" },
+    { "name": "strip-ansi", "ecosystem": "npm", "description": "Strip ANSI escape codes from a string.", "latestVersion": "7.1.0" },
+    { "name": "ansi-regex", "ecosystem": "npm", "description": "Regular expression for matching ANSI escape codes.", "latestVersion": "5.0.1" },
+    { "name": "chalk", "ecosystem": "npm", "description": "Terminal string styling done right.", "latestVersion": "5.3.0" },
+    { "name": "ansi-styles", "ecosystem": "npm", "description": "ANSI escape codes for styling strings in the terminal.", "latestVersion": "6.2.1" },
+    { "name": "color-convert", "ecosystem": "npm", "description": "Convert colors between formats.", "latestVersion": "2.0.1" },
+    { "name": "color-name", "ecosystem": "npm", "description": "A list of color names and their values.", "latestVersion": "1.1.4" },
+    { "name": "supports-color", "ecosystem": "npm", "description": "Detect whether a terminal supports color.", "latestVersion": "9.4.0" },
+    { "name": "has-flag", "ecosystem": "npm", "description": "Check if argv has a specific flag.", "latestVersion": "4.0.0" },
+    { "name": "lodash", "ecosystem": "npm", "description": "A modern JavaScript utility library delivering modularity and performance.", "latestVersion": "4.17.21" },
+    { "name": "nodemon", "ecosystem": "npm", "description": "Monitor for changes and automatically restart a Node.js application.", "latestVersion": "3.1.0" },
+    { "name": "chokidar", "ecosystem": "npm", "description": "Minimal and efficient cross-platform file watching library.", "latestVersion": "3.6.0" },
+    { "name": "braces", "ecosystem": "npm", "description": "Fast, low-level brace expansion for globbing.", "latestVersion": "3.0.2" },
+    { "name": "glob-parent", "ecosystem": "npm", "description": "Extract the non-glob base path from a glob pattern.", "latestVersion": "5.1.2" },
+    { "name": "puppeteer", "ecosystem": "npm", "description": "Headless Chrome/Chromium automation library.", "latestVersion": "22.6.3" },
+    { "name": "socks-proxy-agent", "ecosystem": "npm", "description": "A SOCKS proxy agent for HTTP/HTTPS requests.", "latestVersion": "8.0.2" },
+    { "name": "socks", "ecosystem": "npm", "description": "Fully featured SOCKS proxy client/server.", "latestVersion": "2.8.1" },
+    { "name": "ip", "ecosystem": "npm", "description": "IP address utilities for parsing, validation, and formatting.", "latestVersion": "2.0.1" }
+  ],
+
+  "maintainers": [
+    { "username": "tjholowaychuk", "name": "TJ Holowaychuk" },
+    { "username": "jonchurch", "name": "Jon Church" },
+    { "username": "jdalton", "name": "John-David Dalton" },
+    { "username": "sindresorhus", "name": "Sindre Sorhus" },
+    { "username": "qix-", "name": "Josh Junon" },
+    { "username": "outsideris", "name": "Sang-min Yoon" }
+  ],
+
+  "maintains": [
+    { "package": "express", "maintainer": "tjholowaychuk" },
+    { "package": "express", "maintainer": "jonchurch" },
+    { "package": "lodash", "maintainer": "jdalton" },
+    { "package": "chalk", "maintainer": "sindresorhus" },
+    { "package": "debug", "maintainer": "qix-" },
+    { "package": "mocha", "maintainer": "outsideris" }
+  ],
+
+  "dependencies": [
+    { "from": "express", "to": "body-parser", "versionRange": "^1.20.2", "kind": "direct" },
+    { "from": "express", "to": "cookie", "versionRange": "0.6.0", "kind": "direct" },
+    { "from": "express", "to": "cookie-signature", "versionRange": "1.0.6", "kind": "direct" },
+    { "from": "express", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "express", "to": "finalhandler", "versionRange": "1.2.0", "kind": "direct" },
+    { "from": "express", "to": "merge-descriptors", "versionRange": "1.0.1", "kind": "direct" },
+    { "from": "express", "to": "methods", "versionRange": "~1.1.2", "kind": "direct" },
+    { "from": "express", "to": "on-finished", "versionRange": "2.4.1", "kind": "direct" },
+    { "from": "express", "to": "parseurl", "versionRange": "~1.3.3", "kind": "direct" },
+    { "from": "express", "to": "path-to-regexp", "versionRange": "0.1.7", "kind": "direct" },
+    { "from": "express", "to": "proxy-addr", "versionRange": "~2.0.7", "kind": "direct" },
+    { "from": "express", "to": "qs", "versionRange": "6.11.0", "kind": "direct" },
+    { "from": "express", "to": "range-parser", "versionRange": "~1.2.1", "kind": "direct" },
+    { "from": "express", "to": "serve-static", "versionRange": "1.15.0", "kind": "direct" },
+    { "from": "express", "to": "type-is", "versionRange": "~1.6.18", "kind": "direct" },
+    { "from": "express", "to": "vary", "versionRange": "~1.1.2", "kind": "direct" },
+
+    { "from": "body-parser", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "body-parser", "to": "qs", "versionRange": "6.11.0", "kind": "direct" },
+    { "from": "body-parser", "to": "raw-body", "versionRange": "2.5.2", "kind": "direct" },
+
+    { "from": "finalhandler", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "finalhandler", "to": "on-finished", "versionRange": "2.4.1", "kind": "direct" },
+    { "from": "finalhandler", "to": "parseurl", "versionRange": "~1.3.3", "kind": "direct" },
+    { "from": "finalhandler", "to": "statuses", "versionRange": "2.0.1", "kind": "direct" },
+    { "from": "finalhandler", "to": "unpipe", "versionRange": "~1.0.0", "kind": "direct" },
+
+    { "from": "serve-static", "to": "encodeurl", "versionRange": "~1.0.2", "kind": "direct" },
+    { "from": "serve-static", "to": "parseurl", "versionRange": "~1.3.3", "kind": "direct" },
+    { "from": "serve-static", "to": "send", "versionRange": "0.18.0", "kind": "direct" },
+
+    { "from": "send", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "send", "to": "encodeurl", "versionRange": "~1.0.2", "kind": "direct" },
+    { "from": "send", "to": "mime", "versionRange": "1.6.0", "kind": "direct" },
+    { "from": "send", "to": "ms", "versionRange": "2.1.3", "kind": "direct" },
+    { "from": "send", "to": "range-parser", "versionRange": "~1.2.1", "kind": "direct" },
+    { "from": "send", "to": "statuses", "versionRange": "2.0.1", "kind": "direct" },
+
+    { "from": "proxy-addr", "to": "ipaddr.js", "versionRange": "1.9.1", "kind": "direct" },
+    { "from": "type-is", "to": "mime", "versionRange": "1.6.0", "kind": "direct" },
+    { "from": "debug", "to": "ms", "versionRange": "2.1.3", "kind": "direct" },
+
+    { "from": "mocha", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "mocha", "to": "glob", "versionRange": "10.3.10", "kind": "direct" },
+    { "from": "mocha", "to": "minimatch", "versionRange": "9.0.3", "kind": "direct" },
+    { "from": "mocha", "to": "ms", "versionRange": "2.1.3", "kind": "direct" },
+    { "from": "mocha", "to": "minimist", "versionRange": "1.2.8", "kind": "direct" },
+    { "from": "mocha", "to": "strip-ansi", "versionRange": "7.1.0", "kind": "direct" },
+
+    { "from": "glob", "to": "minimatch", "versionRange": "^9.0.3", "kind": "direct" },
+    { "from": "glob", "to": "inflight", "versionRange": "^1.0.6", "kind": "direct" },
+    { "from": "minimatch", "to": "brace-expansion", "versionRange": "^2.0.1", "kind": "direct" },
+    { "from": "brace-expansion", "to": "balanced-match", "versionRange": "^1.0.0", "kind": "direct" },
+    { "from": "inflight", "to": "once", "versionRange": "^1.4.0", "kind": "direct" },
+    { "from": "inflight", "to": "wrappy", "versionRange": "1", "kind": "direct" },
+    { "from": "once", "to": "wrappy", "versionRange": "1", "kind": "direct" },
+    { "from": "strip-ansi", "to": "ansi-regex", "versionRange": "^6.0.1", "kind": "direct" },
+
+    { "from": "chalk", "to": "ansi-styles", "versionRange": "^6.2.1", "kind": "direct" },
+    { "from": "chalk", "to": "supports-color", "versionRange": "^9.4.0", "kind": "direct" },
+    { "from": "ansi-styles", "to": "color-convert", "versionRange": "^2.0.1", "kind": "direct" },
+    { "from": "color-convert", "to": "color-name", "versionRange": "^1.1.4", "kind": "direct" },
+    { "from": "supports-color", "to": "has-flag", "versionRange": "^4.0.0", "kind": "direct" },
+
+    { "from": "nodemon", "to": "chokidar", "versionRange": "^3.6.0", "kind": "direct" },
+    { "from": "nodemon", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "nodemon", "to": "chalk", "versionRange": "^5.3.0", "kind": "dev" },
+    { "from": "chokidar", "to": "braces", "versionRange": "^3.0.2", "kind": "direct" },
+    { "from": "chokidar", "to": "glob-parent", "versionRange": "^5.1.2", "kind": "direct" },
+
+    { "from": "puppeteer", "to": "socks-proxy-agent", "versionRange": "^8.0.2", "kind": "direct" },
+    { "from": "puppeteer", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "socks-proxy-agent", "to": "socks", "versionRange": "^2.8.1", "kind": "direct" },
+    { "from": "socks-proxy-agent", "to": "debug", "versionRange": "^4.3.4", "kind": "direct" },
+    { "from": "socks", "to": "ip", "versionRange": "^2.0.1", "kind": "direct" }
+  ],
+
+  "vulnerabilities": [
+    {
+      "id": "DEP-2024-0113",
+      "severity": "critical",
+      "cvssScore": 9.8,
+      "summary": "Prototype pollution via a crafted --proto argument allows attacker-controlled properties to be merged onto Object.prototype.",
+      "publishedAt": "2024-03-11"
+    },
+    {
+      "id": "DEP-2024-0087",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "summary": "Denial of service via deeply nested query-string parameters causes exponential parsing time.",
+      "publishedAt": "2024-01-22"
+    },
+    {
+      "id": "DEP-2023-0219",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "summary": "Server-side request forgery: malformed IP strings are misclassified as public, bypassing private-network checks.",
+      "publishedAt": "2023-09-05"
+    },
+    {
+      "id": "DEP-2024-0055",
+      "severity": "medium",
+      "cvssScore": 5.3,
+      "summary": "The regular expression used for brace expansion is vulnerable to catastrophic backtracking on crafted input (ReDoS).",
+      "publishedAt": "2024-04-08"
+    },
+    {
+      "id": "DEP-2021-0142",
+      "severity": "medium",
+      "cvssScore": 5.3,
+      "summary": "ReDoS in the ANSI escape-code matching regex when given a long, crafted input string.",
+      "publishedAt": "2021-09-17"
+    },
+    {
+      "id": "DEP-2023-0301",
+      "severity": "low",
+      "cvssScore": 3.7,
+      "summary": "Regular expression denial of service in a formatter used for object inspection under certain locale settings.",
+      "publishedAt": "2023-11-30"
+    },
+    {
+      "id": "DEP-2022-0198",
+      "severity": "medium",
+      "cvssScore": 5.3,
+      "summary": "ReDoS via a crafted glob pattern during non-glob base path extraction.",
+      "publishedAt": "2022-03-02"
+    },
+    {
+      "id": "DEP-2024-0002",
+      "severity": "critical",
+      "cvssScore": 9.1,
+      "summary": "Path traversal allows reading files outside the configured static root via crafted percent-encoded sequences.",
+      "publishedAt": "2024-01-03"
+    }
+  ],
+
+  "affects": [
+    { "vulnerability": "DEP-2024-0113", "package": "minimist", "affectedVersionRange": "<1.2.6", "patchedVersion": "1.2.6" },
+    { "vulnerability": "DEP-2024-0087", "package": "qs", "affectedVersionRange": "<6.11.1", "patchedVersion": "6.11.1" },
+    { "vulnerability": "DEP-2023-0219", "package": "ip", "affectedVersionRange": "<=2.0.1", "patchedVersion": "2.1.0" },
+    { "vulnerability": "DEP-2024-0055", "package": "braces", "affectedVersionRange": "<3.0.3", "patchedVersion": "3.0.3" },
+    { "vulnerability": "DEP-2021-0142", "package": "ansi-regex", "affectedVersionRange": "<6.0.1", "patchedVersion": "6.0.1" },
+    { "vulnerability": "DEP-2023-0301", "package": "debug", "affectedVersionRange": "<=4.3.4", "patchedVersion": "4.3.5" },
+    { "vulnerability": "DEP-2022-0198", "package": "glob-parent", "affectedVersionRange": "<6.0.2", "patchedVersion": "6.0.2" },
+    { "vulnerability": "DEP-2024-0002", "package": "send", "affectedVersionRange": "<0.19.0", "patchedVersion": "0.19.0" }
+  ]
+}

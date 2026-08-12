@@ -1,0 +1,28 @@
+{
+  "name": "depscope",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DepScope — dependency & vulnerability exposure explorer, backed by CognoDB (openCypher/Bolt).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "neo4j-driver": "^5.24.0",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}
